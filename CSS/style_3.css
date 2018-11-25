@@ -1,0 +1,115 @@
+/* body {
+    font-size: 18px;
+    font-family: PingFang, Geneva, Verdana, sans-serif；
+}
+
+.first {
+    float: top;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(177, 176, 176);
+    margin-bottom: 10px;
+}
+
+div {
+    float: top;
+    height: 60px;
+    margin: 5px;
+    padding: 10px;
+    border: 0px;
+    width: 1500px;
+}
+
+.first {
+    padding: 0px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-left: 20px;
+    padding-top: 5px;
+    color: aliceblue;
+}
+
+h2 {
+    clear: both;
+    float: left;
+    height:100px;
+    width: 150px;
+    margin: 0px;
+    background-color: gainsboro;
+    padding: 20px;
+    font-size: 20px;
+} */
+
+/*通用样式*/
+body
+{
+	font-size: 10px;
+}
+
+a{
+    color: blue;
+}
+
+#resume{
+    padding:0;
+    overflow: hidden;
+}
+
+h1{
+    width: 100%;
+    padding: 1em 2em;
+    font-size: 1.8em;
+    color: #ffffff;
+    background-color:#858585; 
+}
+
+#welcome{
+    color: red;
+    font-size: 20px;
+}
+
+#main{
+    /* 正常定位 */
+    position: relative;
+    width: 100%;
+    
+}
+
+.message_box{
+    position: relative;
+    top: -1em;
+    height: 8.9em;
+    width: 100%;
+    margin-bottom: 0;
+    border: 1px solid #ccc;
+}
+
+.message_box h2{
+    float: left;
+    position: absolute;
+    top:-0.9em;
+    height: 4em;
+    width: 7em;
+    padding-top:3.1em; 
+
+    background-color: #ccc;
+    border: #ffffff;
+    text-align: center;
+
+}
+
+.message_box p{
+   
+    float: left;
+    position: absolute;
+    left: 7em;
+    font-size:1.6em; 
+
+   
+
+}
+.item{
+    display: block;
+}
